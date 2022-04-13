@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Selenium Live Projects\GeeksResolutionCheck\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1920, 1080)">checkResolutionForNewlyProducts(1920, 1080)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(2560, 1440)">checkResolutionForNewlyProducts(2560, 1440)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1680, 1050)">checkResolutionForNewlyProducts(1680, 1050)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1366, 768)">checkResolutionForNewlyProducts(1366, 768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1280, 720)">checkResolutionForNewlyProducts(1280, 720)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1440, 900)">checkResolutionForNewlyProducts(1440, 900)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1536, 864)">checkResolutionForNewlyProducts(1536, 864)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.NewAddition" class="method navigator-link" hash-for-method="checkResolutionForNewlyProducts(1920, 1200)">checkResolutionForNewlyProducts(1920, 1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1920, 1080)">checkResolutionForSliPages(1920, 1080)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1280, 720)">checkResolutionForSliPages(1280, 720)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1366, 768)">checkResolutionForSliPages(1366, 768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1680, 1050)">checkResolutionForSliPages(1680, 1050)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1536, 864)">checkResolutionForSliPages(1536, 864)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1440, 900)">checkResolutionForSliPages(1440, 900)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(2560, 1440)">checkResolutionForSliPages(2560, 1440)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.SliPages" class="method navigator-link" hash-for-method="checkResolutionForSliPages(1920, 1200)">checkResolutionForSliPages(1920, 1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.WidgetsPages" class="method navigator-link" hash-for-method="checkResolutionForWidgets(1536, 864)">checkResolutionForWidgets(1536, 864)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1440, 900)">checkResolutionForpopularPPts(1440, 900)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1536, 864)">checkResolutionForpopularPPts(1536, 864)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1366, 768)">checkResolutionForpopularPPts(1366, 768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1920, 1080)">checkResolutionForpopularPPts(1920, 1080)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1920, 1200)">checkResolutionForpopularPPts(1920, 1200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(2560, 1440)">checkResolutionForpopularPPts(2560, 1440)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="GeeksTestCases.MostDownloaded" class="method navigator-link" hash-for-method="checkResolutionForpopularPPts(1280, 720)">checkResolutionForpopularPPts(1280, 720)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GeeksTestCases.WidgetsPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForWidgets(1536, 864)">
+                  </a> <!-- checkResolutionForWidgets(1536, 864) -->
+                  <span class="method-name">checkResolutionForWidgets</span>
+                  <span class="parameters">(1536, 864)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GeeksTestCases.MostDownloaded</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1440, 900)">
+                  </a> <!-- checkResolutionForpopularPPts(1440, 900) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1440, 900)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1536, 864)">
+                  </a> <!-- checkResolutionForpopularPPts(1536, 864) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1536, 864)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1366, 768)">
+                  </a> <!-- checkResolutionForpopularPPts(1366, 768) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1366, 768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1920, 1080)">
+                  </a> <!-- checkResolutionForpopularPPts(1920, 1080) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1920, 1080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1920, 1200)">
+                  </a> <!-- checkResolutionForpopularPPts(1920, 1200) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1920, 1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(2560, 1440)">
+                  </a> <!-- checkResolutionForpopularPPts(2560, 1440) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(2560, 1440)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForpopularPPts(1280, 720)">
+                  </a> <!-- checkResolutionForpopularPPts(1280, 720) -->
+                  <span class="method-name">checkResolutionForpopularPPts</span>
+                  <span class="parameters">(1280, 720)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GeeksTestCases.NewAddition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1920, 1080)">
+                  </a> <!-- checkResolutionForNewlyProducts(1920, 1080) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1920, 1080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(2560, 1440)">
+                  </a> <!-- checkResolutionForNewlyProducts(2560, 1440) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(2560, 1440)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1680, 1050)">
+                  </a> <!-- checkResolutionForNewlyProducts(1680, 1050) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1680, 1050)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1366, 768)">
+                  </a> <!-- checkResolutionForNewlyProducts(1366, 768) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1366, 768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1280, 720)">
+                  </a> <!-- checkResolutionForNewlyProducts(1280, 720) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1280, 720)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1440, 900)">
+                  </a> <!-- checkResolutionForNewlyProducts(1440, 900) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1440, 900)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1536, 864)">
+                  </a> <!-- checkResolutionForNewlyProducts(1536, 864) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1536, 864)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForNewlyProducts(1920, 1200)">
+                  </a> <!-- checkResolutionForNewlyProducts(1920, 1200) -->
+                  <span class="method-name">checkResolutionForNewlyProducts</span>
+                  <span class="parameters">(1920, 1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GeeksTestCases.SliPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1920, 1080)">
+                  </a> <!-- checkResolutionForSliPages(1920, 1080) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1920, 1080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1280, 720)">
+                  </a> <!-- checkResolutionForSliPages(1280, 720) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1280, 720)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1366, 768)">
+                  </a> <!-- checkResolutionForSliPages(1366, 768) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1366, 768)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1680, 1050)">
+                  </a> <!-- checkResolutionForSliPages(1680, 1050) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1680, 1050)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1536, 864)">
+                  </a> <!-- checkResolutionForSliPages(1536, 864) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1536, 864)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1440, 900)">
+                  </a> <!-- checkResolutionForSliPages(1440, 900) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1440, 900)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(2560, 1440)">
+                  </a> <!-- checkResolutionForSliPages(2560, 1440) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(2560, 1440)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResolutionForSliPages(1920, 1200)">
+                  </a> <!-- checkResolutionForSliPages(1920, 1200) -->
+                  <span class="method-name">checkResolutionForSliPages</span>
+                  <span class="parameters">(1920, 1200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium Live Projects\GeeksResolutionCheck\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;GeeksListener.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GeeksTestCases.WidgetsPages&quot;/&gt;
+      &lt;class name=&quot;GeeksTestCases.SliPages&quot;/&gt;
+      &lt;class name=&quot;GeeksTestCases.NewAddition&quot;/&gt;
+      &lt;class name=&quot;GeeksTestCases.BaseClass&quot;/&gt;
+      &lt;class name=&quot;GeeksTestCases.MostDownloaded&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkResolutionForSliPages')
+data.setCell(0, 2, 'GeeksTestCases.SliPages')
+data.setCell(0, 3, 83066);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkResolutionForSliPages')
+data.setCell(1, 2, 'GeeksTestCases.SliPages')
+data.setCell(1, 3, 79368);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkResolutionForSliPages')
+data.setCell(2, 2, 'GeeksTestCases.SliPages')
+data.setCell(2, 3, 79065);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkResolutionForSliPages')
+data.setCell(3, 2, 'GeeksTestCases.SliPages')
+data.setCell(3, 3, 77422);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkResolutionForSliPages')
+data.setCell(4, 2, 'GeeksTestCases.SliPages')
+data.setCell(4, 3, 76730);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkResolutionForSliPages')
+data.setCell(5, 2, 'GeeksTestCases.SliPages')
+data.setCell(5, 3, 76568);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkResolutionForSliPages')
+data.setCell(6, 2, 'GeeksTestCases.SliPages')
+data.setCell(6, 3, 76453);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkResolutionForSliPages')
+data.setCell(7, 2, 'GeeksTestCases.SliPages')
+data.setCell(7, 3, 76010);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkResolutionForpopularPPts')
+data.setCell(8, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(8, 3, 39513);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkResolutionForpopularPPts')
+data.setCell(9, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(9, 3, 38763);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkResolutionForpopularPPts')
+data.setCell(10, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(10, 3, 38465);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkResolutionForpopularPPts')
+data.setCell(11, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(11, 3, 38347);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkResolutionForpopularPPts')
+data.setCell(12, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(12, 3, 38254);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkResolutionForpopularPPts')
+data.setCell(13, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(13, 3, 38038);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkResolutionForpopularPPts')
+data.setCell(14, 2, 'GeeksTestCases.MostDownloaded')
+data.setCell(14, 3, 37734);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkResolutionForNewlyProducts')
+data.setCell(15, 2, 'GeeksTestCases.NewAddition')
+data.setCell(15, 3, 37257);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkResolutionForNewlyProducts')
+data.setCell(16, 2, 'GeeksTestCases.NewAddition')
+data.setCell(16, 3, 36546);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkResolutionForNewlyProducts')
+data.setCell(17, 2, 'GeeksTestCases.NewAddition')
+data.setCell(17, 3, 36169);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkResolutionForNewlyProducts')
+data.setCell(18, 2, 'GeeksTestCases.NewAddition')
+data.setCell(18, 3, 36111);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkResolutionForNewlyProducts')
+data.setCell(19, 2, 'GeeksTestCases.NewAddition')
+data.setCell(19, 3, 35967);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkResolutionForNewlyProducts')
+data.setCell(20, 2, 'GeeksTestCases.NewAddition')
+data.setCell(20, 3, 35845);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkResolutionForNewlyProducts')
+data.setCell(21, 2, 'GeeksTestCases.NewAddition')
+data.setCell(21, 3, 35641);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkResolutionForNewlyProducts')
+data.setCell(22, 2, 'GeeksTestCases.NewAddition')
+data.setCell(22, 3, 35581);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkResolutionForWidgets')
+data.setCell(23, 2, 'GeeksTestCases.WidgetsPages')
+data.setCell(23, 3, 22420);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">GeeksTestCases.MostDownloaded</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">GeeksTestCases.NewAddition</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">GeeksTestCases.SliPages</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">GeeksTestCases.BaseClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">GeeksTestCases.WidgetsPages</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForWidgets(1536, 864)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GeeksTestCases.SliPages</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(2560, 1440)</span>
+                <span class="method-start">22461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1920, 1080)</span>
+                <span class="method-start">101527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1366, 768)</span>
+                <span class="method-start">178258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1920, 1200)</span>
+                <span class="method-start">261324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1440, 900)</span>
+                <span class="method-start">337777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1680, 1050)</span>
+                <span class="method-start">414345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1280, 720)</span>
+                <span class="method-start">491768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForSliPages(1536, 864)</span>
+                <span class="method-start">571136 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GeeksTestCases.NewAddition</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(2560, 1440)</span>
+                <span class="method-start">647148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1920, 1080)</span>
+                <span class="method-start">682730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1280, 720)</span>
+                <span class="method-start">718842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1920, 1200)</span>
+                <span class="method-start">754483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1536, 864)</span>
+                <span class="method-start">790652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1680, 1050)</span>
+                <span class="method-start">827910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1366, 768)</span>
+                <span class="method-start">863757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForNewlyProducts(1440, 900)</span>
+                <span class="method-start">900303 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GeeksTestCases.MostDownloaded</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1920, 1080)</span>
+                <span class="method-start">936271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1280, 720)</span>
+                <span class="method-start">975036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1920, 1200)</span>
+                <span class="method-start">1013074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(2560, 1440)</span>
+                <span class="method-start">1052588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1536, 864)</span>
+                <span class="method-start">1090322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1366, 768)</span>
+                <span class="method-start">1128577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResolutionForpopularPPts(1440, 900)</span>
+                <span class="method-start">1167043 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
