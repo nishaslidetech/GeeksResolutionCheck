@@ -20,7 +20,7 @@ public class MostDownloaded extends BaseClass {
 				{ 1440, 900 } };
 	}
 
-	@Test(dataProvider = "windowResolution", enabled = true)
+	@Test(dataProvider = "windowResolution", enabled = false)
 	public void checkResolutionForpopularPPts(int w, int h) throws InterruptedException {
 
 		setDriver(w, h);
