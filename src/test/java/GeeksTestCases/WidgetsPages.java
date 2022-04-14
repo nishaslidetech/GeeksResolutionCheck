@@ -25,7 +25,7 @@ public class WidgetsPages extends BaseClass {
 	public Object[][] windowResolution() {
 
 		return new Object[][] {  { 2560, 1440 }, { 1920, 1080 },
-				{ 1920, 1200 }, { 1680, 1050 }, };
+				{ 1920, 1200 } };
 	}
 
 	@Test(dataProvider = "windowResolution", enabled = true)
