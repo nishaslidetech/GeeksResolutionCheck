@@ -16,7 +16,7 @@ public class NewAddition extends BaseClass {
 				{ 1366, 768 }, { 1440, 900 } };
 	}
 
-	@Test(dataProvider = "windowResolution", enabled = true)
+	@Test(dataProvider = "windowResolution", enabled = false)
 	public void checkResolutionForNewlyProducts(int w, int h) throws InterruptedException {
 		setDriver(w, h);
 		System.out.println("Resolution = " + w + "*" + h);
