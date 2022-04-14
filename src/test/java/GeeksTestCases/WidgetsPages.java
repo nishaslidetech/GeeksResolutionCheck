@@ -49,7 +49,7 @@ public class WidgetsPages extends BaseClass {
 			df.setRoundingMode(RoundingMode.DOWN);
 			// System.out.println(df.format(roundedValue));
 			float f = Float.parseFloat(df.format(roundedValue));
-
+                         System.out.println("f = " + f);
 			if ((f <= 1.74) || f >= 1.78) {
 				System.out.println("URL = " + driver.getCurrentUrl() + "\n" + "PPtName = " + listofImages.get(i) + " -"
 						+ width + "-" + hight + "\n" + df.format(roundedValue) + "Resolution = " + w + "*" + h);
