@@ -1,7 +1,7 @@
 package GeeksTestCases;
 
 import static org.testng.Assert.assertTrue;
-
+import java.lang.reflect.Method;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.math.RoundingMode;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -64,7 +64,11 @@ public class BaseClass {
 		}
 
 	}
-
+        @BeforeMethod
+       public void nameBefore(Method method)
+       {
+       System.out.println("Test name: " + method.getName());       
+           }
 	public static void setDriver(int w, int h) throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
