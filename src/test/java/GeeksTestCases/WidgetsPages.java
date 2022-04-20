@@ -50,11 +50,11 @@ public class WidgetsPages extends BaseClass {
 			// System.out.println(df.format(roundedValue));
 			float f = Float.parseFloat(df.format(roundedValue));
                          System.out.println("f = " + f);
-			if ((f <= 1.74) || f >= 1.78) {
+			/*if ((f <= 1.74) || f >= 1.78) {
 				System.out.println("URL = " + driver.getCurrentUrl() + "\n" + "PPtName = " + listofImages.get(i) + " -"
 						+ width + "-" + hight + "\n" + df.format(roundedValue) + "Resolution = " + w + "*" + h);
 
-			}
+			}*/
 			// assertTrue(df.format(roundedValue).equals("1.76") ||
 			// df.format(roundedValue).equals("1.77")||
 			// df.format(roundedValue).equals("1.75"), "image is not displayed properly");
